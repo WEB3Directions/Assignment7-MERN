@@ -1,9 +1,16 @@
-.main {
+/* .main {
   text-align: center;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  width: 300px;
+  justify-content: space-around;
+  display: flex;
+  
+} */
+
+.slides{
+  
+  
+  justify-content: space-around;
+ 
+
 }
 
 input {
@@ -21,8 +28,249 @@ button {
 }
 
 
+/* .centered-text {
+
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color: rgb(62, 129, 150);
+  padding-bottom: 2;
 
 
+}
+
+.offset-text {
+
+  text-align: right;
+  color: rgb(29, 43, 240);
+  background-color:'#ff5c5c',
+}
+
+
+.button {
+
+  alt: unset;
+  background-color: blue;
+  color: white;
+  pointer-events: visiblePainted;
+} */
+
+/* .change {
+  text-align: left;
+  display: flex;
+  color: white;
+
+
+} */
+
+.ChairContainer {
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.second_path_chairs {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 10px;
+
+ 
+
+
+}
+
+.NavContainer2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+  alt: unset;
+  
+
+}
+
+.h1 {
+
+  font-family: kunstler Script;
+}
+
+
+.p {
+
+  font-size: 60%;
+}
+
+
+.button1{
+
+  alt: unset;
+  color: red;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.button2{
+
+  all: unset;
+  color: rgb(16, 5, 5);
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.secondContainer {
+
+  background-color: white;
+  
+}
+
+.secondContainer_Child {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: brown;
+  
+
+
+}
+
+
+.thirdContainer_Child {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.thirdContainer_Child2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.main {
+ display: inline-block;
+  margin: 1.5%;
+
+ 
+}
+
+.main2 {
+
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  margin: 1%;
+ 
+}
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+}
 
 
 
